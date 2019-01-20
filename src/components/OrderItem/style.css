@@ -1,0 +1,86 @@
+.orderItem {
+    border-bottom: 1px solid #ccc;
+}
+.orderItem:last-child {
+    border-bottom: none;
+}
+.orderItem__itemBox {
+    display: flex;
+    align-items: center;
+    padding: .2rem .3rem;
+}
+.orderItem .orderItem__picBox {
+    overflow: hidden;
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-right: .15rem;
+    border-radius: .1rem;
+    border: 1px solid #eee;
+}
+.orderItem .orderItem__picBox .pic {
+    width: 100%;
+    height: 100%;
+}
+.orderItem .orderItem__rightBox {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 1.4rem;
+}
+.orderItem .orderItem__rightBox .name {
+    font-size: .32rem;
+    font-weight: 600;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.orderItem .orderItem__rightBox .desc {
+    margin-top: .1rem;
+}
+.orderItem .orderItem__rightBox .detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.orderItem .orderItem__rightBox .detail .comment_btn {
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    color: #fff;
+    border-radius: .04rem;
+}
+.orderItem .orderItem__rightBox .detail .comment_btn--gray {
+    background: gray;
+}
+.orderItem .orderItem__rightBox .detail .comment_btn--red {
+    background: red;
+}
+.orderItem__commentBox {
+    padding: 0 .3rem .2rem;
+}
+.orderItem__commentBox .orderItem__comment {
+    width: 100%;
+    height: 1rem;
+}
+.orderItem__commentBox .orderItem__commentBtn--red {
+    background: red;
+}
+.orderItem__commentBox .orderItem__commentBtn--gray {
+    background: gray;
+}
+.orderItem__commentBox .orderItem__commentBtn {
+    padding: .05rem .2rem;
+    color: #fff;
+    margin-right: .1rem;
+    border-radius: .04rem;
+}
+.orderItem__commentBox .orderItem__star {
+    padding: 0 .05rem;
+    font-size: .30rem;
+}
+.orderItem__commentBox .orderItem__star--light {
+    color: red;
+}

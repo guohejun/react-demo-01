@@ -1,0 +1,61 @@
+/* 全局样式 */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif;
+    background-color: @theme-bg;
+    color: #333;
+    font-size: 14px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a, a:focus, a:hover {
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+}
+
+input, select, button {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.clearfix {
+    display: block;
+    zoom: 1;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+}
+
+div:focus {
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0
+}
